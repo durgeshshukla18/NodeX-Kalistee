@@ -22,10 +22,12 @@ import Offer from "./pages/Offer/Offer";
 import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
+import Marquee from "./components/home/Marque/Marque.js";
 
 const Layout = () => {
   return (
     <div>
+    <Marquee/>
       <Header />
       <HeaderBottom />
       <SpecialCase />
