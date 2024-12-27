@@ -7,6 +7,10 @@ import Sale from "../../components/home/Sale/Sale";
 import SpecialOffers from "../../components/home/SpecialOffers/SpecialOffers";
 import YearProduct from "../../components/home/YearProduct/YearProduct";
 import VideoCarousel from "../../components/home/VideoReview/VideoCrousels"
+import ProductCategory from "../../components/home/ProductCategory/ProductCategory";
+import Marque2 from "../../components/home/Marque/Marque2";
+import GsapAnim from "../../components/gsapAnim/GsapAnim";
+
 const Home = () => {
 
     const videoUrls = [
@@ -27,12 +31,15 @@ const Home = () => {
       <div className="max-w-container mx-auto px-4">
         <Sale />
         <NewArrivals />
+        <ProductCategory />
         <div className="my-24">
           <VideoCarousel videoUrls={videoUrls} />
         </div>
         <BestSellers />
         <YearProduct />
         <SpecialOffers />
+        <Marque2 />
+        <GsapAnim />
       </div>
     </div>
   );
